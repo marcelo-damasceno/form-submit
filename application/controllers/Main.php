@@ -13,8 +13,8 @@ class Main extends CI_Controller {
 		echo "<pre>";
 		print_r($_POST);
 		echo "</pre>";
-		
-		echo 	"<div class='alert alert-success alert-dismissible fade show' role='alert'>
+
+		/* echo 	"<div class='alert alert-success alert-dismissible fade show' role='alert'>
 					$_POST[nome]
 					<button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
 				</div>";
@@ -23,7 +23,7 @@ class Main extends CI_Controller {
 					$_POST[nome] $i
 					<button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
 				</div>";
-		}
+		} */
 	}
 
 }
